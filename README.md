@@ -17,7 +17,7 @@ Loan Aproval: The primary dataset used for this analysis is the "Loan Aproval.cs
 ### Tools
 
 - GoogleSheet - Data Cleaning
-- Jupyter NoteBook - Analysist and Report
+- Jupyter NoteBook - Analysis and Report
 
 ### Data Cleaning/Preparation
 
@@ -49,6 +49,18 @@ The dataset contains 13 features:
  | Credit history | A person's debt repayment credit history | 
  | Property Area | The property area is Rural/Urban/Semi-urban | 
  | Loan Status | Loan Status Approved or not, namely Y- Yes, N-No | 
+____
+Importing Libraries and Datasets
+First we have to import the library:
+
+Pandas – For loading Dataframes
+Matplotlib – To visualize data features namely barplots
+Seaborn – To see the correlation between features using a heatmap
+
+### Analysis with Jupiter Notebook
+
+
+
 
   
 
