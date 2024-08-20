@@ -53,9 +53,9 @@ ____
 Importing Libraries and Datasets
 First we have to import the library:
 
-Pandas – For loading Dataframes
-Matplotlib – To visualize data features namely barplots
-Seaborn – To see the correlation between features using a heatmap
+- Pandas : For loading Dataframes
+- Matplotlib : To visualize data features namely barplots
+- Seaborn : To see the correlation between features using a heatmap
 
 ### Analysis with Jupiter Notebook
 
