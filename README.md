@@ -32,5 +32,23 @@ EDA involved exploring the loan aproval to answer key questions, such as:
 - how each of these variables are related or influential to each other to produce a strong correlation
 - Is there an ideal method to apply in classification to generate optimal loan distribution?
 
+### Data Analysis
+The dataset contains 13 features:
+
+|Loan|Unique ID|
+|--------|--------|
+ | Gender | Applicant gender: Male/female | 
+ | Marital status | For married applicants, the score is Yes/No | 
+ | Dependents | Indicates whether the applicant has dependents or not. | 
+ | Education | This will tell us whether the applicant has Passed or not | 
+ | Work alone | It defines that the applicant is self-employed i.e. Yes/No | 
+ | Income | Applicant Income Applicant | 
+ | Applicant's Income | Joint Applicant's Income | 
+ | Loan Amount | Loan Amount (in thousands) | 
+ | Loan Amount Term | Loan term (in months) | 
+ | Credit history | A person's debt repayment credit history | 
+ | Property Area | The property area is Rural/Urban/Semi-urban | 
+ | Loan Status | Loan Status Approved or not, namely Y- Yes, N-No | 
+
   
 
