@@ -19,9 +19,18 @@ Loan Aproval: The primary dataset used for this analysis is the "Loan Aproval.cs
 - GoogleSheet - Data Cleaning
 - Jupyter NoteBook - Analysist and Report
 
+### Data Cleaning/Preparation
+
+In the initial data preparation phase, we performed the following tasks:
+1. Data loading and inspection.
+2. Handling missing values.
+3. Data cleaning and formatting.
+
 EDA involved exploring the loan aproval to answer key questions, such as:
 
 - What is the overall shows which value dominates ?
 - how each of these variables are related or influential to each other to produce a strong correlation
 - Is there an ideal method to apply in classification to generate optimal loan distribution?
+
+  
 
