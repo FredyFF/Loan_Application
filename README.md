@@ -185,8 +185,12 @@ _
 ![image](https://fredyfirmansyah107.wordpress.com/wp-content/uploads/2024/08/screen-shot-2024-08-21-at-14.58.01.png?w=1024)
 
 Since there are no missing values ​​we should proceed to model training.
+___
 
-```html
+### Splitting Datasets
+To map data, separate data is needed to make it easier so that the training and test process can get good results
+
+ ```html
 <script>
 from sklearn.model_selection import train_test_split
 
@@ -204,11 +208,10 @@ X_train.shape, X_test.shape, Y_train.shape, Y_test.shape
 ```
 _
 ![image](https://fredyfirmansyah107.wordpress.com/wp-content/uploads/2024/08/screen-shot-2024-08-21-at-15.28.09.png?w=344)
-___
 
-### Splitting Datasets
 
-1. Training and Evaluation Model
+
+### Training and Evaluation Model
 
 Since this is a classification problem we will use the following model:
 - KNeighborsClassifiers
@@ -217,4 +220,10 @@ Since this is a classification problem we will use the following model:
 - Logistics Regression
 - To predict accuracy we will use the accuracy score function from the scikit-learn library.
  
+ 
+
+
+
+
+
 
