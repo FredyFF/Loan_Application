@@ -51,13 +51,18 @@ The dataset contains 13 features:
  | Loan Status | Loan Status Approved or not, namely Y- Yes, N-No | 
 ____
 Importing Libraries and Datasets
-First we have to import the library:
+First need to import the library:
 
 - Pandas : For loading Dataframes
 - Matplotlib : To visualize data features namely barplots
 - Seaborn : To see the correlation between features using a heatmap
+- Scikit-learn : library tools for predictive data analysis
 
-### Analysis with Jupiter Notebook
+### Analysis with Python
+
+
+
+
 
 
 
