@@ -152,7 +152,8 @@ sns.heatmap(data.corr(),cmap='BrBG',fmt='.2f',
 
 </script>
 ```
-
+_
+![image](https://fredyfirmansyah107.wordpress.com/wp-content/uploads/2024/08/screen-shot-2024-08-21-at-14.58.01.png?w=1024)
 
 
 
