@@ -250,9 +250,17 @@ for clf in (rfc, knn, svc, lc):
 
 </script>
 ```
+_
 ![image](https://fredyfirmansyah107.wordpress.com/wp-content/uploads/2024/08/screen-shot-2024-08-21-at-15.39.27.png?w=1024)
  
- 
+### Results/Findings
+The analysis results are summarized as follows:
+Random Forest Classifier provided the best accuracy with an accuracy score of 82% for the test dataset. And to get better results, ensemble learning techniques like Bagging and Boosting can also be used.
+
+### Limitations
+
+
+
 
 
 
