@@ -138,8 +138,21 @@ print('Categorical variables:',len(list(obj[obj].index)))
 
 </script>
 ```
-_
+
 Categorical variables: 0
+
+Check the correlation between other column, heatmap is suitable to show the visual data
+
+```html
+<script>
+plt.figure(figsize=(12,6))
+
+sns.heatmap(data.corr(),cmap='BrBG',fmt='.2f',
+            linewidths=2,annot=True)
+
+</script>
+```
+
 
 
 
