@@ -92,6 +92,27 @@ data.drop(['Loan_ID'],axis=1,inplace=True)
 _
 ![image](https://fredyfirmansyah107.wordpress.com/wp-content/uploads/2024/08/screen-shot-2024-08-21-at-14.12.54.png?w=1024)
 
+2. Visualize all the values ​​in a column using a barplot. It will simply show which values ​​dominate based on the dataset set.
+```html
+<script>
+# show data with Barplot
+
+obj = (data.dtypes == 'object')
+object_cols = list(obj[obj].index)
+plt.figure(figsize=(18,36))
+index = 1
+
+for col in object_cols:
+    y = data[col].value_counts()
+    plt.subplot(11,4,index)
+    plt.xticks(rotation=90)
+    sns.barplot(x=list(y.index), y=y)
+    index +=1
+    
+</script>
+```
+_
+![image](https://fredyfirmansyah107.wordpress.com/wp-content/uploads/2024/08/screen-shot-2024-08-21-at-14.42.52.png?w=1024)
 
 
 
