@@ -101,7 +101,24 @@ for col in data.columns :
     
 data.isna().sum()
 </script>
+
 ```
+___
+- Gender               0
+- Married              0
+- Dependents           0
+- Education            0
+- Self_Employed        0
+- ApplicantIncome      0
+- CoapplicantIncome    0
+- LoanAmount           0
+- Loan_Amount_Term     0
+- Credit_History       0
+- Property_Area        0
+- Loan_Status          0
+- dtype: int64
+__
+
 
 
 2. Visualize all the values ​​in a column using a barplot. It will simply show which values ​​dominate based on the dataset set.
@@ -167,8 +184,24 @@ sns.heatmap(data.corr(),cmap='BrBG',fmt='.2f',
 _
 ![image](https://fredyfirmansyah107.wordpress.com/wp-content/uploads/2024/08/screen-shot-2024-08-21-at-14.58.01.png?w=1024)
 
+Since there are no missing values ​​we should proceed to model training.
 
+```html
+<script>
+from sklearn.model_selection import train_test_split
 
+X = data.drop(['Loan_Status'],axis=1)
+Y = data['Loan_Status']
+X.shape, Y.shape
+         
+X_train, X_test, Y_train, Y_test = train_test_split(X, Y,
+                                                    test_size=0.4,
+                                                    random_state=1)
+
+X_train.shape, X_test.shape, Y_train.shape, Y_test.shape
+
+</script>
+```
 
   
 
