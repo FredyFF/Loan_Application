@@ -71,7 +71,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-data = pd.read_csv('/Users/fredyfirmansyahit/Downloads/Loan Aproval - Sheet1.csv')
+data = pd.read_csv('/Users/fredyfirmansyah/Downloads/Loan Aproval - Sheet1.csv')
 data.head()
 
 </script>
