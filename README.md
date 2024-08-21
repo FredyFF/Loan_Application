@@ -255,7 +255,7 @@ _
  
 ### Results/Findings
 The analysis results are summarized as follows:
-Random Forest Classifier provided the best accuracy with an accuracy score of 82% for the test dataset. And to get better results, ensemble learning techniques like Bagging and Boosting can also be used.
+Random Forest Classifier provided the best accuracy with an accuracy score more than 90% for the test dataset. And to get better results, ensemble learning techniques like Bagging and Boosting can also be used.
 
 ### Limitations
 
