@@ -76,6 +76,13 @@ data.head()
 
 </script>
 ```
+_
+![image](https://fredyfirmansyah107.wordpress.com/wp-content/uploads/2024/08/screen-shot-2024-08-21-at-14.07.17.png?w=1024)
+
+From the column above, we know that Loan_ID is unique and has no correlation with other column data, we can remove this from the dataset using .drop()
+
+
+
 
 
 
