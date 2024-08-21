@@ -58,9 +58,24 @@ First need to import the library:
 - Seaborn : To see the correlation between features using a heatmap
 - Scikit-learn : library tools for predictive data analysis
 
+____
+
 ### Analysis with Python
 
+1. import the data "Loan Aproval.csv"
+   
+```html
+<script>
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
 
+data = pd.read_csv('/Users/fredyfirmansyahit/Downloads/Loan Aproval - Sheet1.csv')
+data.head()
+
+</script>
+```
 
 
 
