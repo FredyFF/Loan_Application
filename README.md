@@ -202,6 +202,19 @@ X_train.shape, X_test.shape, Y_train.shape, Y_test.shape
 
 </script>
 ```
+_
+![image](https://fredyfirmansyah107.wordpress.com/wp-content/uploads/2024/08/screen-shot-2024-08-21-at-15.28.09.png?w=344)
+___
 
-  
+### Splitting Datasets
+
+1. Training and Evaluation Model
+
+Since this is a classification problem we will use the following model:
+- KNeighborsClassifiers
+- RandomForestClassifiers
+- Support Vector Classifiers (SVC)
+- Logistics Regression
+- To predict accuracy we will use the accuracy score function from the scikit-learn library.
+ 
 
