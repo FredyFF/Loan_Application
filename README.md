@@ -92,6 +92,18 @@ data.drop(['Loan_ID'],axis=1,inplace=True)
 _
 ![image](https://fredyfirmansyah107.wordpress.com/wp-content/uploads/2024/08/screen-shot-2024-08-21-at-14.12.54.png?w=1024)
 
+
+Now lets find out if there are any missing values ​​in the dataset using the code below.
+```html
+<script>
+for col in data.columns :
+    data[col] = data[col].fillna(data[col].mean())
+    
+data.isna().sum()
+</script>
+```
+
+
 2. Visualize all the values ​​in a column using a barplot. It will simply show which values ​​dominate based on the dataset set.
 ```html
 <script>
