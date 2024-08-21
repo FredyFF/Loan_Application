@@ -114,7 +114,32 @@ for col in object_cols:
 _
 ![image](https://fredyfirmansyah107.wordpress.com/wp-content/uploads/2024/08/screen-shot-2024-08-21-at-14.42.52.png?w=1024)
 
+Because all categorical values ​​are binary so we can use Label Encoder for all those columns and the values ​​will change to int data type.
+* Check the object data type column. Let's find out if there is anything left.
 
+```html
+<script>
+
+# Import Label Encoder
+from sklearn import preprocessing
+
+# label_encoder object knows how
+# to understand word labels.
+
+label_encoder = preprocessing.LabelEncoder()
+obj = (data.dtypes == 'object')
+for col in list(obj[obj].index):
+    data[col] = label_encoder.fit_transform(data[col])
+
+# To find the number of columns with
+# datatype==object
+obj = (data.dtypes == 'object')
+print('Categorical variables:',len(list(obj[obj].index)))
+
+</script>
+```
+_
+Categorical variables: 0
 
 
 
