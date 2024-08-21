@@ -258,6 +258,7 @@ The analysis results are summarized as follows:
 Random Forest Classifier provided the best accuracy with an accuracy score more than 90% for the test dataset. And to get better results, ensemble learning techniques like Bagging and Boosting can also be used.
 
 ### Limitations
+Attention and be careful regarding the amount of data and the number of columns included in the model, this can affect the data and expected results. You need a deep understanding of each method or algorithm used
 
 
 
