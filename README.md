@@ -210,7 +210,7 @@ _
 ![image](https://fredyfirmansyah107.wordpress.com/wp-content/uploads/2024/08/screen-shot-2024-08-21-at-15.28.09.png?w=344)
 
 
-
+___
 ### Training and Evaluation Model
 
 Since this is a classification problem we will use the following model:
@@ -218,7 +218,39 @@ Since this is a classification problem we will use the following model:
 - RandomForestClassifiers
 - Support Vector Classifiers (SVC)
 - Logistics Regression
-- To predict accuracy we will use the accuracy score function from the scikit-learn library.
+
+To predict accuracy we will use the accuracy score function from the scikit-learn library.
+ ```html
+<script>
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.svm import SVC
+from sklearn.linear_model import LogisticRegression
+log_model = LogisticRegression(solver='lbfgs', max_iter=1000)
+
+from sklearn import metrics
+
+knn = KNeighborsClassifier(n_neighbors=3)
+rfc = RandomForestClassifier(n_estimators = 7,
+                             criterion = 'entropy',
+                             random_state = 7)
+
+svc = SVC()
+lc = LogisticRegression()
+
+# Making Prediction on the training set
+for clf in (rfc, knn, svc, lc):
+    clf.fit(X_train, Y_train)
+    Y_pred = clf.predict(X_train)
+    print('accuracy score of ',
+          clf.__class__.__name__,
+          '=', 100*metrics.accuracy_score(Y_train,
+                                          Y_pred))
+
+
+</script>
+```
+![image](https://fredyfirmansyah107.wordpress.com/wp-content/uploads/2024/08/screen-shot-2024-08-21-at-15.39.27.png?w=1024)
  
  
 
